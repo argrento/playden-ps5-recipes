@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-imported-resident-evil-3-dx11-v20230427-p2p-www-p30day-ir-pixel-shaders-wave64-frame",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "resident-evil-3-dx11-v20230427-p2p-www-p30day-ir",
+    "name": "Resident.Evil.3.DX11.v20230427-P2P-www.P30Day.ir"
+  },
+  "name": "Resident.Evil.3.DX11.v20230427-P2P-www.P30Day.ir",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "re3.exe",
+      "executable": "re3.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d11,d3d12,dxgi",
+  "defaults": {
+    "d3d12": "vkd3d-proton",
+    "frame_latency": "1",
+    "pixel_shader_waves": "wave64",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "re3.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Pixel shaders Wave64, Frame latency 1",
+    "tested_kit": "0.28",
+    "tested_firmware": "9.00",
+    "tested_date": "2026-11-16",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
