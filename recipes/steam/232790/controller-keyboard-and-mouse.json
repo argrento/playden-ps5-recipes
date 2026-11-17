@@ -35,7 +35,7 @@
   "executable": "BrokenAge.exe",
   "community": {
     "format_version": 1,
-    "title": "Controller Keyboard and mouse mapping",
+    "title": "Left stick as mouse pointer",
     "tested_kit": "0.28",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-17",
