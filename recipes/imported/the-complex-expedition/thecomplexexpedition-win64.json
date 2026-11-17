@@ -36,7 +36,7 @@
   "executable": "TheComplexExpedition/Binaries/Win64/TheComplexExpedition-Win64-Shipping.exe",
   "community": {
     "format_version": 1,
-    "title": "TheComplexExpedition-Win64-Shipping.exe",
+    "title": "DirectX 12, 60 fps, touchpad as mouse",
     "tested_kit": "0.28",
     "tested_firmware": "12.40",
     "tested_date": "2026-11-17",
