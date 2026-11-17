@@ -1,0 +1,44 @@
+{
+  "recipe_id": "community-imported-grand-theft-auto-v-gta-v-not-launching",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "grand-theft-auto-v",
+    "name": "Grand Theft Auto V"
+  },
+  "name": "Grand Theft Auto V",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "PlayGTAV.exe",
+      "executable": "PlayGTAV.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "opengl,anticheat",
+  "defaults": {
+    "pixel_shader_waves": "wave64",
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "executable": "PlayGTAV.exe",
+  "community": {
+    "format_version": 1,
+    "title": "gta v not launching",
+    "tested_kit": "0.28",
+    "tested_firmware": "12.20",
+    "tested_date": "2026-11-17",
+    "status": "broken",
+    "notes": "",
+    "author": "amirhossein",
+    "contributors": []
+  }
+}
