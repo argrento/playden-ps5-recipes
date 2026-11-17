@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-imported-naruto-ultimate-ninja-storm-nsuns1-exe",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "naruto-ultimate-ninja-storm",
+    "name": "NARUTO Ultimate Ninja Storm"
+  },
+  "name": "NARUTO Ultimate Ninja Storm",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "NSUNS1.exe",
+      "executable": "NSUNS1.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unknown",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "NSUNS1.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Main program, NSUNS1.exe",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.20",
+    "tested_date": "2026-11-16",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
