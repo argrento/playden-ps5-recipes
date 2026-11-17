@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-steam-108600-frame-limit-60",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "108600",
+    "name": "Project Zomboid"
+  },
+  "name": "Project Zomboid",
+  "launch_entries": [
+    {
+      "id": "game",
+      "label": "Project Zomboid",
+      "executable": "ProjectZomboid64.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-nosteam",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "defaults": {
+    "controller": "playstation",
+    "frame_limit": "60",
+    "steam_features": "emulate",
+    "touchpad_hold": "mouse",
+    "windows_version": "win7"
+  },
+  "locked": [],
+  "executable": "ProjectZomboid64.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Frame limit 60",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-17",
+    "status": "works",
+    "notes": "",
+    "author": "TestixularTorsion",
+    "contributors": []
+  }
+}
