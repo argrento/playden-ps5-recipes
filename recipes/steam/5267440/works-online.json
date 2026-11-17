@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-steam-5267440-works-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "5267440",
+    "name": "DungeonBox Demo"
+  },
+  "name": "DungeonBox Demo",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "DungeonBox Demo",
+      "executable": "DungeonBox.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "DungeonBox.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Works online",
+    "tested_kit": "0.28",
+    "tested_firmware": "9.40",
+    "tested_date": "2026-11-17",
+    "status": "works",
+    "notes": "",
+    "author": "Dryyan",
+    "contributors": []
+  }
+}
