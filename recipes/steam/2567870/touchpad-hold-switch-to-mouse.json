@@ -33,7 +33,7 @@
   "executable": "ChainedTogether/Binaries/Win64/ChainedTogether-Win64-Shipping.exe",
   "community": {
     "format_version": 1,
-    "title": "Touchpad hold Switch to Mouse",
+    "title": "Touchpad as mouse",
     "tested_kit": "0.28",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-17",
