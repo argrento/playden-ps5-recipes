@@ -32,7 +32,7 @@
   "executable": "bin/x64/Cyberpunk2077.exe",
   "community": {
     "format_version": 1,
-    "title": "Cyberpunk2077.exe",
+    "title": "Main program with DirectX 12, no launcher",
     "tested_kit": "0.28",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-17",
