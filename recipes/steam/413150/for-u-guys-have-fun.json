@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-steam-413150-for-u-guys-have-fun",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "413150",
+    "name": "Stardew Valley"
+  },
+  "name": "Stardew Valley",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Stardew Valley.exe",
+      "executable": "Stardew Valley.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "unknown",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Stardew Valley.exe",
+  "community": {
+    "format_version": 1,
+    "title": "For u guys, have fun ;)",
+    "tested_kit": "0.29",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "",
+    "author": "Yoan",
+    "contributors": []
+  }
+}
