@@ -34,7 +34,7 @@
   "executable": "ProjectZomboid64.exe",
   "community": {
     "format_version": 1,
-    "title": "Frame limit 60",
+    "title": "60 fps, PlayStation controller, touchpad as mouse",
     "tested_kit": "0.28",
     "tested_firmware": "13.42",
     "tested_date": "2026-11-17",
