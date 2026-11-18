@@ -7,6 +7,7 @@ steam/550 default-config
 steam/3700 mouse
 steam/6060 mouse
 steam/6920 game-program
+steam/7510 skip-launcher
 steam/10090 mouse
 steam/10180 mouse
 steam/12210 gtaiv-patch-only
@@ -19,6 +20,7 @@ steam/105600 game-program
 steam/212680 mouse
 steam/223470 steam-features-game-s-own-files
 steam/230270 opengl
+steam/232790 controller-keyboard-and-mouse
 steam/235460 metalgear-rising-revengance
 steam/239030 mouse
 steam/239140 dying-light-skip-logos
@@ -55,12 +57,14 @@ steam/1026680 launcher
 steam/1085510 steam-features-online
 steam/1086940 bg3-dx11-exe
 steam/1089980 mouse
+steam/1091500 cyberpunk2077-exe
 steam/1091500 cyberpunk2077-exe-2560-1440
 steam/1091500 cyberpunk2077-prepped-for-mods
 steam/1091500 vkd3d
 steam/1113560 3840-2160
 steam/1127400 mouse
 steam/1167630 opengl
+steam/1173770 3840-2160-touchpad-hold-switch
 steam/1363080 start-through-a-launcher-on
 steam/1371980 recipe
 steam/1375400 vkd3d
@@ -73,6 +77,7 @@ steam/2111190 vkd3d
 steam/2215430 no-launcher-1080p
 steam/2333000 silver-pines
 steam/2475490 steam-features-online
+steam/2567870 touchpad-hold-switch-to-mouse
 steam/2634950 d3d12-wine
 steam/2671230 library-overrides-none-2560-1440
 steam/2744010 mouse
@@ -92,7 +97,10 @@ imported/diddy-kong-racing diddy-kong-racing-recompiled
 imported/eldewrito-0-7-1 baseline
 imported/furmark-2 gl-demo-1080p
 imported/metal-gear-rising chronbox
+imported/moonlighter-2-the-endless-vault 120-hz-on
 imported/moonlighter-2-the-endless-vault ps
+imported/naruto-ultimate-ninja-storm nsuns1-exe
 imported/prime95 offline
 imported/rush-the-rock projectr
+imported/the-complex-expedition thecomplexexpedition-win64
 imported/unigine-heaven direct3d9
