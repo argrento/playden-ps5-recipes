@@ -33,7 +33,7 @@
   "executable": "ParatopicOverdub.exe",
   "community": {
     "format_version": 1,
-    "title": "Controller preset Gamepad",
+    "title": "Gamepad preset, touchpad as mouse",
     "tested_kit": "0.28",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-17",
