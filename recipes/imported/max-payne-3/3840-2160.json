@@ -1,0 +1,44 @@
+{
+  "recipe_id": "community-imported-max-payne-3-3840-2160",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "max-payne-3",
+    "name": "Max Payne 3"
+  },
+  "name": "Max Payne 3",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "MaxPayne3.exe",
+      "executable": "Max Payne 3/MaxPayne3.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d10,d3d11,d3d9,dxgi",
+  "defaults": {
+    "resolution": "3840x2160",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Max Payne 3/MaxPayne3.exe",
+  "community": {
+    "format_version": 1,
+    "title": "3840×2160",
+    "tested_kit": "0.29",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
