@@ -32,7 +32,7 @@
   "executable": "Pal/Binaries/Win64/Palworld-Win64-Shipping.exe",
   "community": {
     "format_version": 1,
-    "title": "Palworld",
+    "title": "DirectX 11, 60 fps",
     "tested_kit": "0.28",
     "tested_firmware": "13.42",
     "tested_date": "2026-11-17",
