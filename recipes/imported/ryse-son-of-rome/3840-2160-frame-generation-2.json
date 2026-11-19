@@ -33,7 +33,7 @@
   "executable": "Bin64/Ryse.exe",
   "community": {
     "format_version": 1,
-    "title": "3840×2160, Frame generation 2×",
+    "title": "4K with frame generation 2×",
     "tested_kit": "0.29",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-18",
