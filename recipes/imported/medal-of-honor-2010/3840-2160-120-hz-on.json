@@ -33,7 +33,7 @@
   "executable": "Binaries/moh.exe",
   "community": {
     "format_version": 1,
-    "title": "3840×2160, 120 Hz on",
+    "title": "4K at 120 Hz",
     "tested_kit": "0.25",
     "tested_firmware": "7.20",
     "tested_date": "2026-11-18",
