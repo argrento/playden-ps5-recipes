@@ -31,7 +31,7 @@
   "executable": "REPO.exe",
   "community": {
     "format_version": 1,
-    "title": "Steam features Online (experimental)",
+    "title": "Online play (Steam features Online)",
     "tested_kit": "0.29",
     "tested_firmware": "12.40",
     "tested_date": "2026-11-18",
