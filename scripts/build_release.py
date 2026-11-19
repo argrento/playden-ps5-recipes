@@ -8,7 +8,8 @@ Usage:
 Checks every recipe (scripts/check.py), then writes DIR/recipes.zip with every recipe at
 recipes/<store>/<key>/<slug>.json (sorted, fixed timestamps, no directory entries, deflate: the same files give the
 same bytes) and DIR/index.json (format_version 2), which lists each game (store, key, name) with its recipes and
-their revisions (the sha256 of the file) and holds the sha256 of the zip.
+their revisions (the sha256 of the file) and holds the sha256 of the zip. A recipe that names a setting row newer
+Playden releases added gets min_playden, the release that first reads all of them (settings-since.json).
 
 Games are listed by store (steam, epic, gog, imported), then by key (numerically for Steam and GOG). A game's name is
 the game.name of its newest published recipe: the one whose current revision was published last in revisions.lst
@@ -92,7 +93,7 @@ def read_revisions(text):
     return lines, published
 
 
-def index_entry(result):
+def index_entry(result, since=None):
     """One recipe in index.json. Absent optional texts are "", absent contributors []."""
     community = result.data["community"]
 
@@ -114,12 +115,17 @@ def index_entry(result):
     }
     if "made_on" in result.data:
         entry["made_on"] = result.data["made_on"]
+    # The oldest Playden that reads the recipe, from the rows it names (settings-since.json); an older Playden that
+    # knows the field leaves the recipe out instead of refusing it. Absent when every Playden reads it.
+    needed = check.min_playden(result.data, since or {})
+    if needed:
+        entry["min_playden"] = needed
     return entry
 
 
-def build_index(results, zip_bytes, now, published=None):
+def build_index(results, zip_bytes, now, published=None, since=None):
     """index.json bytes. published maps (recipe_id, revision) to its time in revisions.lst; a revision not in it
-    counts as published now."""
+    counts as published now. since is the settings-since.json table min_playden comes from."""
     published = published or {}
     games = {}
     for result in results:
@@ -128,7 +134,7 @@ def build_index(results, zip_bytes, now, published=None):
     for (store, key), members in sorted(games.items(), key=lambda item: store_key_order(*item[0])):
         newest = max(members, key=lambda r: (published.get((r.data["recipe_id"], sha256(r.raw)), now),
                                              r.data["recipe_id"]))
-        entries = sorted((index_entry(r) for r in members), key=lambda e: e["id"])
+        entries = sorted((index_entry(r, since) for r in members), key=lambda e: e["id"])
         listed.append({"store": store, "key": key, "name": newest.data["game"]["name"], "recipes": entries})
     index = {
         "format_version": FORMAT_VERSION,
@@ -194,7 +200,7 @@ def build(repo, out_dir, checker=None, now=None, update_lists=True):
         raise ReleaseError("recipes.zip is %d bytes, more than %d" % (len(zip_bytes), MAX_ZIP_BYTES))
     revisions_path = repo / "revisions.lst"
     _, published = read_revisions(revisions_path.read_text(encoding="utf-8") if revisions_path.exists() else "")
-    index_bytes = build_index(results, zip_bytes, now, published)
+    index_bytes = build_index(results, zip_bytes, now, published, check.settings_since(repo))
     if len(index_bytes) > MAX_INDEX_BYTES:
         raise ReleaseError("index.json is %d bytes, more than %d" % (len(index_bytes), MAX_INDEX_BYTES))
 

@@ -171,9 +171,15 @@ Playden doesn't read this repository's files directly: it downloads the latest r
 
 - `recipes.zip` with every recipe at `recipes/<store>/<key>/<slug>.json`.
 - `index.json` (`format_version` 2) with a `games` list: each game's `store`, `key` and `name`, and its recipes (id,
-  title, status, author, contributors, kits, firmware, date, `made_on` when set) with each recipe's `revision`, the
-  sha256 of its file. It also holds the sha256 of the zip. Playden drops any file whose hash doesn't match. Games are
-  listed by store (Steam, Epic, GOG, imported), then by key.
+  title, status, author, contributors, kits, firmware, date, `made_on` when set, `min_playden` when needed) with each
+  recipe's `revision`, the sha256 of its file. It also holds the sha256 of the zip. Playden drops any file whose hash
+  doesn't match. Games are listed by store (Steam, Epic, GOG, imported), then by key.
+
+`min_playden` is the oldest Playden release that reads every setting the recipe's `defaults` name. The release script
+takes it from `settings-since.json`, a copy of Playden's `docs/settings-since.json`. Nobody writes it in a recipe. A
+Playden that knows the field leaves out a recipe that needs a newer Playden; an older one refuses the file, as before.
+The checks refuse a `defaults` row that isn't in `settings-since.json`: when Playden adds a setting, copy the new file
+here first.
 
 So nothing reaches players until the maintainer merges it and tags a release. `scripts/build_release.py --out DIR`
 builds both files; the same recipes always give the same zip. It also records every released revision in

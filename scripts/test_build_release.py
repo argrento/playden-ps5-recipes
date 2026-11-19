@@ -89,6 +89,25 @@ class IndexTest(BuildTestCase):
                 (self.repo.root / "recipes/steam/274520/120hz-left-stick-pointer.json").read_bytes()).hexdigest(),
         })
 
+    def test_min_playden_comes_from_settings_since(self):
+        path = self.repo.place("good.json", key="1592280", slug="new-row")
+        # With this repository's table nothing needs a newer Playden yet: no field.
+        self.build()
+        index = json.loads(self.output("index.json"))
+        self.assertTrue(all("min_playden" not in e for g in index["games"] for e in g["recipes"]))
+        # good.json sets pointer_speed: under a table where it came in 0.13.0, every recipe here needs 0.13.0, and the
+        # file (its revision) doesn't change.
+        table = json.loads(self.repo.read("settings-since.json"))
+        table["settings"]["pointer_speed"] = "0.13.0"
+        self.repo.write("settings-since.json", json.dumps(table))
+        self.build()
+        index = json.loads(self.output("index.json"))
+        by_id = {e["id"]: e for g in index["games"] for e in g["recipes"]}
+        self.assertEqual(by_id["community-steam-1592280-new-row"]["min_playden"], "0.13.0")
+        self.assertEqual(set(by_id["community-steam-1592280-new-row"]), INDEX_ENTRY_KEYS | {"min_playden"})
+        self.assertEqual(by_id["community-steam-1592280-new-row"]["revision"],
+                         hashlib.sha256((self.repo.root / path).read_bytes()).hexdigest())
+
     def test_games_are_ordered_by_store_then_key(self):
         self.repo.place("imported.json", store="imported", key="b-game")
         self.repo.place("imported.json", store="imported", key="a-game")

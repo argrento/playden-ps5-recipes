@@ -23,6 +23,8 @@ class TempRepo:
         self.git("config", "user.name", "Test")
         self.git("config", "user.email", "test@example.invalid")
         self.git("config", "commit.gpgsign", "false")
+        # The checks read the repository's own settings-since.json.
+        shutil.copyfile(REPO / "settings-since.json", self.root / "settings-since.json")
 
     def close(self):
         self._dir.cleanup()

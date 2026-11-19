@@ -47,6 +47,55 @@ class ContentTest(CheckTestCase):
         for result in results:
             self.assertEqual(result.refusals, [], result.path)
 
+    def test_unknown_setting_is_refused(self):
+        path = self.repo.place("good.json")
+        data = json.loads(self.repo.read(path))
+        data["defaults"]["pointer_sped"] = "2400"
+        self.repo.write(path, json.dumps(data, indent=2) + "\n")
+        self.assertRefused(path, "defaults sets pointer_sped, which isn't a Playden setting")
+
+    def test_defaults_must_map_ids_to_strings(self):
+        path = self.repo.place("good.json")
+        for defaults in ([], None, {"pointer_speed": 2400}):
+            data = json.loads(self.repo.read(path))
+            data["defaults"] = defaults
+            self.repo.write(path, json.dumps(data, indent=2) + "\n")
+            self.assertRefused(path, "defaults must map setting ids to strings")
+
+    def test_settings_since_comes_from_the_checked_repository(self):
+        path = self.repo.place("good.json")
+        data = json.loads(self.repo.read(path))
+        data["defaults"]["controller_layout"] = "a = pad:b"
+        self.repo.write(path, json.dumps(data, indent=2) + "\n")
+        self.assertRefused(path, "defaults sets controller_layout, which isn't a Playden setting")
+        table = json.loads(self.repo.read("settings-since.json"))
+        table["settings"]["controller_layout"] = "0.13.0"
+        self.repo.write("settings-since.json", json.dumps(table))
+        self.assertEqual(self.refusals(path), [])
+
+    def test_settings_since_copy_is_valid(self):
+        since = check.settings_since()
+        for name in ("resolution", "button.cross", "pointer_speed", "opengl_thread"):
+            self.assertIn(name, since)
+
+    def test_min_playden_is_the_newest_since(self):
+        since = {"resolution": "", "controller_layout": "0.13.0", "later": "0.13.10", "older": "0.9.2"}
+        self.assertEqual(check.min_playden({"defaults": {"resolution": "1"}}, since), "")
+        self.assertEqual(check.min_playden({"defaults": {"older": "1", "controller_layout": "x"}}, since), "0.13.0")
+        # Compared as numbers, not text: 0.13.10 is newer than 0.13.0 and 0.9.2.
+        self.assertEqual(check.min_playden({"defaults": {"later": "1", "controller_layout": "x", "older": "1"}}, since),
+                         "0.13.10")
+        self.assertEqual(check.min_playden({}, since), "")
+
+    def test_settings_since_refuses_a_bad_file(self):
+        bad = self.repo.root / "since.json"
+        for text in ('{"format_version": 2, "settings": {}}', '{"format_version": 1, "settings": {"a": "0.13"}}',
+                     '{"format_version": 1, "settings": {"a": 13}}', '[]', '{"format_version": true, "settings": {}}',
+                     '{"format_version": 1.0, "settings": {}}'):
+            bad.write_text(text, encoding="utf-8")
+            with self.assertRaises(ValueError):
+                check.read_settings_since(bad)
+
     def test_id_must_match_file_name(self):
         path = self.repo.place("mismatched-id.json", fix_id=False)
         self.assertRefused(path, "recipe_id is 'community-steam-274520-another-name'")

@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: CC0-1.0
 # Publishes a recipes release when started by hand (Actions > Release > Run workflow on main) or by the Playden admin
-# page, and every day at 02:30 UTC when a recipe changed since the last release (a scheduled run with nothing new
-# stops after its first step and publishes nothing). The same steps as `make release` (scripts/publish_github.sh):
+# page, and every day at 02:30 UTC when a recipe or settings-since.json changed since the last release (a scheduled
+# run with nothing new stops after its first step and publishes nothing). The same steps as `make release` (scripts/publish_github.sh):
 # build and check the recipes, commit revisions.lst and slugs.lst, tag the next r<YYYYMMDD>.<n>, push both. The
 # commit and the tag are signed with the maintainer's release key (the RELEASE_GPG_KEY secret of the `release`
 # environment, which only main can use).
@@ -43,11 +43,11 @@ jobs:
         id: new
         run: |
           last="$(git tag --list 'r*' --sort=-creatordate | grep -E '^r[0-9]{8}\.[0-9]+$' | head -n1 || true)"
-          if [ "${{ github.event_name }}" != schedule ] || [ -z "$last" ] || ! git diff --quiet "$last" HEAD -- recipes/; then
+          if [ "${{ github.event_name }}" != schedule ] || [ -z "$last" ] || ! git diff --quiet "$last" HEAD -- recipes/ settings-since.json; then
             echo "release=true" >> "$GITHUB_OUTPUT"
           else
             echo "release=false" >> "$GITHUB_OUTPUT"
-            echo "No recipe changed since $last; nothing to release." | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "No recipe or settings-since.json changed since $last; nothing to release." | tee -a "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Unit tests

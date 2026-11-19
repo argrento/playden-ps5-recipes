@@ -86,6 +86,11 @@ PROGRAM_ONLY_FIELDS = ("registry", "ini", "game_files", "steam_api_copies")
 SETTINGS_ONLY_REFUSED_DEFAULTS = ("arguments", "extra_arguments", "dll_overrides", "architecture", "graphics")
 # Game settings rows a format 1 recipe keeps in its own fields instead.
 PROGRAM_DEFAULTS = ("program", "program_folder", "program_arguments", "arguments", "extra_arguments", "dll_overrides")
+# Every setting id a recipe may name, with the first Playden release that reads it ("" for rows from before Playden
+# tracked it): settings-since.json at the repository root, a copy of Playden's docs/settings-since.json
+# (community_recipe_check --settings-since).
+SETTINGS_SINCE = "settings-since.json"
+RELEASE_VERSION = re.compile(r"^(0|[1-9][0-9]{0,5})\.(0|[1-9][0-9]{0,5})\.(0|[1-9][0-9]{0,5})\Z")
 # Words in a checker flag that mean the same thing.
 LAUNCH_FLAG_WORDS = ("program", "argument", "override", "dll", "environment", "registry", "launch", "executable")
 
@@ -328,6 +333,48 @@ def check_content(result, raw):
     text_field(community, "notes", result, where)
 
 
+def read_settings_since(path):
+    """{setting id: since} from a settings-since.json; refuses a file that isn't one."""
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    settings = data.get("settings") if isinstance(data, dict) and type(data.get("format_version")) is int and \
+        data.get("format_version") == 1 else None
+    if not isinstance(settings, dict) or not all(
+            isinstance(since, str) and (since == "" or RELEASE_VERSION.match(since)) for since in settings.values()):
+        raise ValueError("%s is not format_version 1 with release versions like 0.13.0" % SETTINGS_SINCE)
+    return settings
+
+
+def settings_since(repo=REPO):
+    """The settings-since.json of the repository being checked or built."""
+    return read_settings_since(Path(repo) / SETTINGS_SINCE)
+
+
+def release_key(version):
+    return tuple(int(part) for part in version.split("."))
+
+
+def min_playden(data, since):
+    """The newest `since` among the rows the recipe's defaults name: the oldest Playden that reads it, or ""."""
+    defaults = data.get("defaults") if isinstance(data.get("defaults"), dict) else {}
+    versions = [since[name] for name in defaults if since.get(name)]
+    return max(versions, key=release_key) if versions else ""
+
+
+def check_settings(result, data, since):
+    """defaults, when present, maps setting ids Playden has to strings (Playden refuses anything else). An unknown id is
+    a typo or a setting newer than this repository's settings-since.json."""
+    if "defaults" not in data:
+        return
+    defaults = data["defaults"]
+    if not isinstance(defaults, dict) or not all(isinstance(value, str) for value in defaults.values()):
+        result.refusals.append("defaults must map setting ids to strings")
+        return
+    for name in sorted(defaults):
+        if name not in since:
+            result.refusals.append("defaults sets %s, which isn't a Playden setting (if Playden added it, copy its "
+                                   "docs/settings-since.json to %s)" % (name, SETTINGS_SINCE))
+
+
 def check_format(result, data, format_version):
     """The fields each format version needs or refuses (Playden's ParseCommunityRecipe and community rules)."""
     defaults = data.get("defaults") if isinstance(data.get("defaults"), dict) else {}
@@ -478,6 +525,7 @@ def check_files(paths, repo=REPO, base_ref=None, checker=None):
     elif (repo / "slugs.lst").exists():
         slugs_text = (repo / "slugs.lst").read_text(encoding="utf-8")
     known_slugs = read_slugs(slugs_text or "")
+    since = settings_since(repo)
 
     results = []
     for path in paths:
@@ -488,6 +536,8 @@ def check_files(paths, repo=REPO, base_ref=None, checker=None):
             results.append(result)
             continue
         check_content(result, absolute.read_bytes())
+        if result.data is not None:
+            check_settings(result, result.data, since)
 
         if result.store and result.key and result.slug:
             listed = (result.game, result.slug) in known_slugs
