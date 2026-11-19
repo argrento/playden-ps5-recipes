@@ -31,6 +31,7 @@
   "executable": "NARUTO X BORUTO Ultimate Ninja STORM CONNECTIONS/NSUNSC.exe",
   "community": {
     "format_version": 1,
+    "title": "Default settings",
     "tested_kit": "0.28",
     "tested_firmware": "13.00",
     "tested_date": "2026-11-18",
