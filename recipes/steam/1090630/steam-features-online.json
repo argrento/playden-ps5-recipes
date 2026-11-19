@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-1090630-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1090630",
+    "name": "Granblue Fantasy: Versus"
+  },
+  "name": "Granblue Fantasy: Versus",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "GBVS-Win64-Shipping.exe",
+      "executable": "RED/Binaries/Win64/GBVS-Win64-Shipping.exe",
+      "working_directory": "RED/Binaries/Win64",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-dx11",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unreal",
+  "defaults": {
+    "refresh": "120",
+    "resolution": "3840x2160",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "RED/Binaries/Win64/GBVS-Win64-Shipping.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Online play, DirectX 11 (-dx11)",
+    "tested_kit": "0.29",
+    "tested_firmware": "12.40",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
