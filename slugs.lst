@@ -11,12 +11,14 @@ steam/7510 skip-launcher
 steam/10090 mouse
 steam/10180 mouse
 steam/12210 gtaiv-patch-only
+steam/22370 baseline
 steam/24240 mouse
 steam/35720 game-program
 steam/40700 vkd3d-proton
 steam/57640 mouse
 steam/63660 opengl
 steam/105600 game-program
+steam/108600 frame-limit-60
 steam/212680 mouse
 steam/223470 steam-features-game-s-own-files
 steam/230270 opengl
@@ -47,6 +49,7 @@ steam/489830 game-program
 steam/526870 satisfactory
 steam/544580 game-program
 steam/587620 window-view-entire-desktop
+steam/627270 2560-1440-120-hz-on
 steam/696180 mouse-launcher
 steam/698780 opengl-mouse
 steam/750920 tomb-raider-4k-default
@@ -57,6 +60,7 @@ steam/1026680 launcher
 steam/1085510 steam-features-online
 steam/1086940 bg3-dx11-exe
 steam/1089980 mouse
+steam/1090630 steam-features-online
 steam/1091500 cyberpunk2077-exe
 steam/1091500 cyberpunk2077-exe-2560-1440
 steam/1091500 cyberpunk2077-prepped-for-mods
@@ -71,6 +75,7 @@ steam/1375400 vkd3d
 steam/1546860 mouse
 steam/1592280 opengl
 steam/1623730 d3d12-wine
+steam/1623730 palworld
 steam/1684930 vkd3d
 steam/1875580 vkd3d
 steam/2111190 vkd3d
@@ -78,6 +83,7 @@ steam/2215430 no-launcher-1080p
 steam/2333000 silver-pines
 steam/2475490 steam-features-online
 steam/2567870 touchpad-hold-switch-to-mouse
+steam/2615540 program-arguments-dx11
 steam/2634950 d3d12-wine
 steam/2671230 library-overrides-none-2560-1440
 steam/2744010 mouse
@@ -85,10 +91,13 @@ steam/2796180 menu-pointer
 steam/2806640 talos1
 steam/2950340 years-1-4
 steam/2950340 years-5-7
+steam/3241660 steam-features-online
+steam/3419520 steam-features-online
 steam/3629780 mouse-720p
 steam/3743790 game-program
 steam/4678800 defaults
 steam/4841090 own-steam-files
+steam/5267440 works-online
 imported/7-zip benchmark
 imported/bully-scholarship-edition-with-fixes-only 2560-1440-controller-preset
 imported/conker-s-bad-fur-day conker-s-bad-fur-day-recomp
@@ -96,11 +105,16 @@ imported/dark-deception chronbox
 imported/diddy-kong-racing diddy-kong-racing-recompiled
 imported/eldewrito-0-7-1 baseline
 imported/furmark-2 gl-demo-1080p
+imported/max-payne-3 3840-2160
+imported/medal-of-honor-2010 3840-2160-120-hz-on
 imported/metal-gear-rising chronbox
 imported/moonlighter-2-the-endless-vault 120-hz-on
 imported/moonlighter-2-the-endless-vault ps
 imported/naruto-ultimate-ninja-storm nsuns1-exe
+imported/paratopic-overdub controller-preset-gamepad
 imported/prime95 offline
+imported/resident-evil-3-remake 2560-1440-120-hz-on
 imported/rush-the-rock projectr
+imported/ryse-son-of-rome 3840-2160-frame-generation-2
 imported/the-complex-expedition thecomplexexpedition-win64
 imported/unigine-heaven direct3d9
