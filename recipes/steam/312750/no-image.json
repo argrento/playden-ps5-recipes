@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-steam-312750-no-image",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "312750",
+    "name": "Final Fantasy IV (3D Remake)"
+  },
+  "name": "Final Fantasy IV (3D Remake)",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "FF4.exe",
+      "executable": "FF4.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d9",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "FF4.exe",
+  "community": {
+    "format_version": 1,
+    "title": "No image",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-19",
+    "status": "works",
+    "notes": "",
+    "author": "JohnnyLove007",
+    "contributors": []
+  }
+}
