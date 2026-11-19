@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-646570-slaythespire-exe-120-hz-on",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "646570",
+    "name": "Slay the Spire"
+  },
+  "name": "Slay the Spire",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "SlayTheSpire.exe",
+      "executable": "SlayTheSpire.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "java",
+  "defaults": {
+    "frame_limit": "120",
+    "refresh": "120",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "SlayTheSpire.exe",
+  "community": {
+    "format_version": 1,
+    "title": "SlayTheSpire.exe, 120 Hz on",
+    "tested_kit": "0.31",
+    "tested_firmware": "11.60",
+    "tested_date": "2026-11-19",
+    "status": "works",
+    "notes": "",
+    "author": "Cola512",
+    "contributors": []
+  }
+}
