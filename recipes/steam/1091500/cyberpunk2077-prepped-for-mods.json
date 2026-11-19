@@ -26,6 +26,7 @@
   "detected": "d3d12,dxgi",
   "defaults": {
     "d3d12": "vkd3d-proton",
+    "start_through_launcher": "on",
     "steam_features": "emulate"
   },
   "locked": [],
@@ -33,9 +34,9 @@
   "community": {
     "format_version": 1,
     "title": "Cyberpunk2077 - Prepped For Mods",
-    "tested_kit": "0.20",
-    "tested_firmware": "13.60",
-    "tested_date": "2026-11-08",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-19",
     "status": "works",
     "notes": "Changes some libraries so mods load, verified for multiplayer mod",
     "author": "isaacm080",
