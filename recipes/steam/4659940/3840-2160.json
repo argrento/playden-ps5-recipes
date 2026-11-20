@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-4659940-3840-2160",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "4659940",
+    "name": "Booster Pack Heroes Demo"
+  },
+  "name": "Booster Pack Heroes Demo",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Booster Pack Heroes.exe",
+      "executable": "Booster Pack Heroes.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity-il2cpp,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "controller": "playstation",
+    "resolution": "3840x2160",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Booster Pack Heroes.exe",
+  "community": {
+    "format_version": 1,
+    "title": "3840×2160",
+    "tested_kit": "0.28",
+    "tested_firmware": "9.60",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "",
+    "author": "AMR",
+    "contributors": []
+  }
+}
