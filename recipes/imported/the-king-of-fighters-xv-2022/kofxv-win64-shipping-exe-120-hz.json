@@ -34,7 +34,7 @@
   "executable": "THE KING OF FIGHTERS XV/KOFXV/Binaries/Win64/KOFXV-Win64-Shipping.exe",
   "community": {
     "format_version": 1,
-    "title": "KOFXV-Win64-Shipping.exe, 120 Hz on",
+    "title": "DirectX 11, 120 Hz with frame generation",
     "tested_kit": "0.32",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-20",
