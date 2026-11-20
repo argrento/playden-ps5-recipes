@@ -1,0 +1,48 @@
+{
+  "recipe_id": "community-steam-1422450-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1422450",
+    "name": "Deadlock"
+  },
+  "name": "Deadlock",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "deadlock.exe",
+      "executable": "game/bin/win64/deadlock.exe",
+      "working_directory": "",
+      "arguments": "-steam -console",
+      "in_install_root": true
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d11,d3d9,dxgi,vulkan",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_speed": "900",
+    "pointer_stick": "left_stick",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "game/bin/win64/deadlock.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Steam features Online (experimental)",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-20",
+    "status": "broken",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
