@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-imported-the-king-of-fighters-xv-2022-kofxv-win64-shipping-exe-120-hz",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "the-king-of-fighters-xv-2022",
+    "name": "THE KING OF FIGHTERS XV (2022)"
+  },
+  "name": "THE KING OF FIGHTERS XV (2022)",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "KOFXV-Win64-Shipping.exe",
+      "executable": "THE KING OF FIGHTERS XV/KOFXV/Binaries/Win64/KOFXV-Win64-Shipping.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-dx11",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unreal",
+  "defaults": {
+    "framegen": "2",
+    "refresh": "120",
+    "steam_features": "emulate",
+    "window_view": "desktop"
+  },
+  "locked": [],
+  "executable": "THE KING OF FIGHTERS XV/KOFXV/Binaries/Win64/KOFXV-Win64-Shipping.exe",
+  "community": {
+    "format_version": 1,
+    "title": "DirectX 11, 120 Hz with frame generation",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "",
+    "author": "Alagaver",
+    "contributors": []
+  }
+}
