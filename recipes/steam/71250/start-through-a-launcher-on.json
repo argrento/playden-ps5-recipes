@@ -1,0 +1,44 @@
+{
+  "recipe_id": "community-steam-71250-start-through-a-launcher-on",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "71250",
+    "name": "Sonic Adventure DX"
+  },
+  "name": "Sonic Adventure DX",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "AppLauncher.exe",
+      "executable": "AppLauncher.exe",
+      "working_directory": "",
+      "arguments": "-bootgame"
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d10,d3d9,dxgi",
+  "defaults": {
+    "start_through_launcher": "on",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "AppLauncher.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Start through a launcher on",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
