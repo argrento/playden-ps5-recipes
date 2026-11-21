@@ -1,0 +1,47 @@
+{
+  "recipe_id": "community-steam-7940-start-through-a-launcher-on-3840",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "7940",
+    "name": "Call of Duty 4: Modern Warfare (2007)"
+  },
+  "name": "Call of Duty 4: Modern Warfare (2007)",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "iw3sp.exe",
+      "executable": "iw3sp.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d9,ddraw",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_layout": "cross = key:space;circle = key:c;square = key:r;triangle = mouse:wheel_up;l1 = key:q;r1 = key:g;l2 = mouse:right;r2 = mouse:left;l3 = key:shift;r3 = key:v;up = key:4;down = key:f;left = key:t;right = key:enter;options = key:escape;create = key:tab;touchpad_left = key:tab;touchpad_right = key:tab;left_stick = keys;left_stick_keys = w,s,a,d;right_stick = mouse",
+    "resolution": "3840x2160",
+    "start_through_launcher": "on",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "iw3sp.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Start through a launcher on, 3840×2160",
+    "tested_kit": "0.34",
+    "tested_firmware": "12.20",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "",
+    "author": "epickitten",
+    "contributors": []
+  }
+}
