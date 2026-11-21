@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-imported-dewdrop-dynasty-dewdrop-dynasty",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "dewdrop-dynasty",
+    "name": "Dewdrop.Dynasty"
+  },
+  "name": "Dewdrop.Dynasty",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "Dewdrop Dynasty.exe",
+      "executable": "Dewdrop.Dynasty/DewdropDynasty_Windows/Dewdrop Dynasty.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "opengl,vulkan",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Dewdrop.Dynasty/DewdropDynasty_Windows/Dewdrop Dynasty.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Dewdrop DYNASTY",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
