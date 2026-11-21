@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-2610-playstation-controller",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "2610",
+    "name": "GUN"
+  },
+  "name": "GUN",
+  "defaults": {
+    "controller": "playstation"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "PlayStation controller",
+    "tested_kit": "0.34",
+    "tested_firmware": "12.70",
+    "tested_date": "",
+    "status": "works",
+    "notes": "The right stick turns the camera, and Square confirms in menus. Report: https://github.com/leolobato/playden-ps5/issues/911",
+    "author": "leolobato",
+    "contributors": []
+  }
+}
