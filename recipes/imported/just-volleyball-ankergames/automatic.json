@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-imported-just-volleyball-ankergames-automatic",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "just-volleyball-ankergames",
+    "name": "Just-Volleyball-AnkerGames"
+  },
+  "name": "Just-Volleyball-AnkerGames",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "volleyball.exe",
+      "executable": "just volleyball/volleyball.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "auto",
+  "detected": "d3d11,d3d12,dxgi,opengl,vulkan",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "just volleyball/volleyball.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Automatic",
+    "tested_kit": "0.29",
+    "tested_firmware": "7.01",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "",
+    "author": "Sam1408",
+    "contributors": []
+  }
+}
