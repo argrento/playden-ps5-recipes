@@ -34,7 +34,7 @@
   "executable": "RDR2.exe",
   "community": {
     "format_version": 1,
-    "title": "Touchpad hold Switch to Mouse",
+    "title": "Rockstar Games Launcher, touchpad hold for mouse",
     "tested_kit": "0.35-dev.20261121.3",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-21",
