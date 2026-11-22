@@ -1,0 +1,47 @@
+{
+  "recipe_id": "community-imported-sephiria-2560-1440-120-hz-on",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "sephiria",
+    "name": "Sephiria"
+  },
+  "name": "Sephiria",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "Sephiria.exe",
+      "executable": "Sephiria.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "controller": "playstation",
+    "framegen": "4",
+    "refresh": "120",
+    "resolution": "2560x1440",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Sephiria.exe",
+  "community": {
+    "format_version": 1,
+    "title": "2560×1440, 120 Hz on",
+    "tested_kit": "0.32",
+    "tested_firmware": "12.20",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "",
+    "author": "MClarieChan",
+    "contributors": []
+  }
+}
