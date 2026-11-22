@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-imported-door-kickers-action-squad-pizle",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "door-kickers-action-squad",
+    "name": "Door Kickers - Action Squad"
+  },
+  "name": "Door Kickers - Action Squad",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "ActionSquad.exe",
+      "executable": "ActionSquad.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d8,d3d9",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "ActionSquad.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Default settings",
+    "tested_kit": "0.35",
+    "tested_firmware": "5.50",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "PiZLe_",
+    "contributors": []
+  }
+}
