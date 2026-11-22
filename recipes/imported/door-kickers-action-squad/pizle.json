@@ -31,6 +31,7 @@
   "executable": "ActionSquad.exe",
   "community": {
     "format_version": 1,
+    "title": "Default settings",
     "tested_kit": "0.35",
     "tested_firmware": "5.50",
     "tested_date": "2026-11-22",
