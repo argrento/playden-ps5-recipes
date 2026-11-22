@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-steam-292030-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "292030",
+    "name": "The Witcher 3: Wild Hunt — Remastered"
+  },
+  "name": "The Witcher 3: Wild Hunt — Remastered",
+  "launch_entries": [
+    {
+      "id": "game",
+      "label": "witcher3.exe",
+      "executable": "bin/x64_dx12/witcher3.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d12,d3d9,dxgi,opengl",
+  "defaults": {
+    "d3d12": "vkd3d-proton",
+    "frame_limit": "60",
+    "resolution": "2560x1440",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "bin/x64_dx12/witcher3.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Steam features Online (experimental)",
+    "tested_kit": "0.29",
+    "tested_firmware": "12.40",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "Pidzi92",
+    "contributors": []
+  }
+}
