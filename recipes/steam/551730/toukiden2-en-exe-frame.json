@@ -1,0 +1,44 @@
+{
+  "recipe_id": "community-steam-551730-toukiden2-en-exe-frame",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "551730",
+    "name": "Toukiden 2"
+  },
+  "name": "Toukiden 2",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "Toukiden2_EN.exe",
+      "executable": "Toukiden2_EN.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "dxgi",
+  "defaults": {
+    "framegen": "2",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "Toukiden2_EN.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Toukiden2_EN.exe, Frame generation 2×",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
