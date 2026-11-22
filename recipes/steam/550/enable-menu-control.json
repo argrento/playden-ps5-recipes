@@ -33,7 +33,7 @@
   "executable": "left4dead2.exe",
   "community": {
     "format_version": 1,
-    "title": "Enable Menu Control",
+    "title": "Pointer on right stick, touchpad click",
     "tested_kit": "0.32",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-21",
