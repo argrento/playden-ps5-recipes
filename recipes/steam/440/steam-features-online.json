@@ -1,0 +1,48 @@
+{
+  "recipe_id": "community-steam-440-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "440",
+    "name": "Team Fortress 2"
+  },
+  "made_on": "imported",
+  "name": "Team Fortress 2",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "tf_win64.exe",
+      "executable": "tf_win64.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "{resolution}",
+  "resolution_arguments": "-w {w} -h {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "source",
+  "defaults": {
+    "controller": "xinput",
+    "controller_layout": "cross = key:space;circle = key:ctrl;square = key:r;triangle = key:q;l1 = mouse:wheel_up;r1 = mouse:wheel_down;l2 = mouse:right;r2 = mouse:left;l3 = key:v;r3 = key:3;up = key:1;down = key:3;left = key:4;right = key:2;options = key:escape;create = key:f1;touchpad_left = pad:back;touchpad_right = key:f10;left_stick = keys;left_stick_keys = w,s,a,d;right_stick = mouse",
+    "refresh": "120",
+    "resolution": "3840x2160",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "tf_win64.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Steam features Online (experimental)",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.20",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "random_one",
+    "contributors": []
+  }
+}
