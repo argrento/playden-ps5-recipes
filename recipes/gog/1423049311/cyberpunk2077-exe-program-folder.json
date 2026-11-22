@@ -34,7 +34,7 @@
   "executable": "bin/x64/Cyberpunk2077.exe",
   "community": {
     "format_version": 1,
-    "title": "Cyberpunk2077.exe, Program folder .",
+    "title": "DirectX 12 (bin/x64/Cyberpunk2077.exe)",
     "tested_kit": "0.32",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-22",
