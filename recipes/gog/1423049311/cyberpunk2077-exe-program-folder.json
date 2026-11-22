@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-gog-1423049311-cyberpunk2077-exe-program-folder",
+  "recipe_version": 1,
+  "game": {
+    "store": "gog",
+    "key": "1423049311",
+    "name": "Cyberpunk 2077"
+  },
+  "name": "Cyberpunk 2077",
+  "launch_entries": [
+    {
+      "id": "launch-2",
+      "label": "Cyberpunk 2077",
+      "executable": "bin/x64/Cyberpunk2077.exe",
+      "working_directory": "",
+      "arguments": "",
+      "in_install_root": true
+    }
+  ],
+  "arguments": "-dx12",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unreal",
+  "defaults": {
+    "controller": "playstation",
+    "d3d12": "vkd3d-proton",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "bin/x64/Cyberpunk2077.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Cyberpunk2077.exe, Program folder .",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
