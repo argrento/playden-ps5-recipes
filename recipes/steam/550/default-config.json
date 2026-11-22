@@ -25,6 +25,8 @@
   "graphics": "dxvk",
   "detected": "source",
   "defaults": {
+    "button.touchpad": "mouse_left",
+    "pointer_stick": "right_stick",
     "steam_features": "online"
   },
   "locked": [],
@@ -32,9 +34,9 @@
   "community": {
     "format_version": 1,
     "title": "Online Steam features",
-    "tested_kit": "0.25",
-    "tested_firmware": "13.00",
-    "tested_date": "2026-11-15",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-22",
     "status": "works",
     "notes": "",
     "author": "TEDDYMASTER3000",
