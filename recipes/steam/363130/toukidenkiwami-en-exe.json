@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-363130-toukidenkiwami-en-exe",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "363130",
+    "name": "Toukiden: Kiwami"
+  },
+  "name": "Toukiden: Kiwami",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "ToukidenKiwami_en.exe",
+      "executable": "ToukidenKiwami_en.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "dxgi",
+  "defaults": {
+    "refresh": "120",
+    "resolution": "3840x2160",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "ToukidenKiwami_en.exe",
+  "community": {
+    "format_version": 1,
+    "title": "3840×2160 at 120 Hz, Steam features Online",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
