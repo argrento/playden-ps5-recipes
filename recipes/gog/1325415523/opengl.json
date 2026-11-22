@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-gog-1325415523-opengl",
+  "recipe_version": 1,
+  "game": {
+    "store": "gog",
+    "key": "1325415523",
+    "name": "Full Throttle Remastered"
+  },
+  "name": "Full Throttle Remastered",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Full Throttle Remastered",
+      "executable": "Throttle.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "d3d11,d3d9,dxgi,opengl",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Throttle.exe",
+  "community": {
+    "format_version": 1,
+    "title": "OpenGL",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.40",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
