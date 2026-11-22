@@ -35,7 +35,7 @@
   "executable": "cstrike_win64.exe",
   "community": {
     "format_version": 1,
-    "title": "Works with lan",
+    "title": "Mouse preset, LAN play works",
     "tested_kit": "0.32",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-21",
