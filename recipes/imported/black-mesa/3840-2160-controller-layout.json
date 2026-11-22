@@ -34,7 +34,7 @@
   "executable": "bms.exe",
   "community": {
     "format_version": 1,
-    "title": "3840×2160, Controller layout Gamepad",
+    "title": "Xbox controller layout, 3840×2160",
     "tested_kit": "0.35",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-22",
