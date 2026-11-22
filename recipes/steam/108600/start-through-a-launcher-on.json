@@ -1,0 +1,48 @@
+{
+  "recipe_id": "community-steam-108600-start-through-a-launcher-on",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "108600",
+    "name": "Project Zomboid"
+  },
+  "name": "Project Zomboid",
+  "launch_entries": [
+    {
+      "id": "game",
+      "label": "Project Zomboid",
+      "executable": "ProjectZomboid64.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-nosteam",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_speed": "900",
+    "pointer_stick": "left_stick",
+    "start_through_launcher": "on",
+    "steam_features": "emulate",
+    "windows_version": "win7"
+  },
+  "locked": [],
+  "executable": "ProjectZomboid64.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Start through a launcher on",
+    "tested_kit": "0.25",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-22",
+    "status": "broken",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
