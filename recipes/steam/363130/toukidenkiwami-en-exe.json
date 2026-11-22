@@ -25,6 +25,8 @@
   "graphics": "dxvk",
   "detected": "dxgi",
   "defaults": {
+    "refresh": "120",
+    "resolution": "3840x2160",
     "steam_features": "online"
   },
   "locked": [],
