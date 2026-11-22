@@ -1,0 +1,48 @@
+{
+  "recipe_id": "community-steam-240720-controller-keyboard-and-mouse",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "240720",
+    "name": "Getting Over It with Bennett Foddy"
+  },
+  "name": "Getting Over It with Bennett Foddy",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "GettingOverIt.exe",
+      "executable": "GettingOverIt.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_speed": "2400",
+    "pointer_stick": "left_stick",
+    "steam_features": "emulate",
+    "touchpad_hold": "mouse"
+  },
+  "locked": [],
+  "executable": "GettingOverIt.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Mouse preset on the left stick",
+    "tested_kit": "0.28",
+    "tested_firmware": "12.20",
+    "tested_date": "2026-11-22",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
