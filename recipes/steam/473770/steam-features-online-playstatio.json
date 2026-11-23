@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-473770-steam-features-online-playstatio",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "473770",
+    "name": "BallisticNG"
+  },
+  "name": "BallisticNG",
+  "defaults": {
+    "controller": "playstation",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online, PlayStation controller",
+    "tested_kit": "0.29",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-19",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

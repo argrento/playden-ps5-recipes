@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-1015500-gamepad-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1015500",
+    "name": "WWE 2K20"
+  },
+  "name": "WWE 2K20",
+  "defaults": {
+    "controller_preset": "gamepad"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Gamepad preset",
+    "tested_kit": "0.23",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-14",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

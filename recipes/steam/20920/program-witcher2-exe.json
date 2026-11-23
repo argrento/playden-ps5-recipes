@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-20920-program-witcher2-exe",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "20920",
+    "name": "The Witcher 2: Assassins of Kings Enhanced Edition"
+  },
+  "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+  "defaults": {
+    "program": "bin/witcher2.exe"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Program witcher2.exe",
+    "tested_kit": "0.20",
+    "tested_firmware": "13.40",
+    "tested_date": "",
+    "status": "works",
+    "notes": "",
+    "author": "Playden",
+    "contributors": []
+  }
+}

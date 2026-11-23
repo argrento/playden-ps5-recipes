@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-1097150-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1097150",
+    "name": "Fall Guys"
+  },
+  "name": "Fall Guys",
+  "defaults": {
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online",
+    "tested_kit": "0.31",
+    "tested_firmware": "12.00",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

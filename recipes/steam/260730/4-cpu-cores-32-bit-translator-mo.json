@@ -1,0 +1,29 @@
+{
+  "recipe_id": "community-steam-260730-4-cpu-cores-32-bit-translator-mo",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "260730",
+    "name": "Desperados - Wanted Dead or Alive"
+  },
+  "name": "Desperados - Wanted Dead or Alive",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "cpu": "translator",
+    "cpu_topology": "4",
+    "pointer_stick": "left_stick"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "4 CPU cores, 32-bit translator, Mouse preset",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

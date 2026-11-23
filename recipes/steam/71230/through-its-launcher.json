@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-71230-through-its-launcher",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "71230",
+    "name": "Crazy Taxi"
+  },
+  "name": "Crazy Taxi",
+  "defaults": {
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Through its launcher",
+    "tested_kit": "0.29",
+    "tested_firmware": "11.60",
+    "tested_date": "2026-11-17",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

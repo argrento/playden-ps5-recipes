@@ -1,0 +1,28 @@
+{
+  "recipe_id": "community-steam-3850550-steam-features-online-mouse-pres",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "3850550",
+    "name": "Isekai: Waifu Overlord"
+  },
+  "name": "Isekai: Waifu Overlord",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online, Mouse preset",
+    "tested_kit": "0.29",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

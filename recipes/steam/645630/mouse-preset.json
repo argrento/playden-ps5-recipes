@@ -1,0 +1,28 @@
+{
+  "recipe_id": "community-steam-645630-mouse-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "645630",
+    "name": "Car Mechanic Simulator 2018"
+  },
+  "name": "Car Mechanic Simulator 2018",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick",
+    "touchpad_hold": "mouse"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Mouse preset",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

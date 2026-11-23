@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-213610-program-sonic2app-exe",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "213610",
+    "name": "Sonic Adventure 2"
+  },
+  "name": "Sonic Adventure 2",
+  "defaults": {
+    "program": "sonic2app.exe"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Program sonic2app.exe",
+    "tested_kit": "0.20",
+    "tested_firmware": "13.40",
+    "tested_date": "",
+    "status": "works",
+    "notes": "Save the game's settings once with its config tool (USB mouse and keyboard) before playing.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

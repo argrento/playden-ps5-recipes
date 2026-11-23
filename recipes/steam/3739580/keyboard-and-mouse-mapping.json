@@ -1,0 +1,39 @@
+{
+  "recipe_id": "community-steam-3739580-keyboard-and-mouse-mapping",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "3739580",
+    "name": "KORRIDOR"
+  },
+  "name": "KORRIDOR",
+  "defaults": {
+    "button.circle": "escape",
+    "button.cross": "enter",
+    "button.down": "s",
+    "button.l1": "shift",
+    "button.l2": "mouse_left",
+    "button.left": "a",
+    "button.r1": "ctrl",
+    "button.r2": "mouse_right",
+    "button.right": "d",
+    "button.square": "space",
+    "button.triangle": "tab",
+    "button.up": "w",
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Keyboard and mouse mapping",
+    "tested_kit": "0.28",
+    "tested_firmware": "12.70",
+    "tested_date": "2026-11-19",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

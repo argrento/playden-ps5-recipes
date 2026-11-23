@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-346900-mouse-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "346900",
+    "name": "AdVenture Capitalist"
+  },
+  "name": "AdVenture Capitalist",
+  "defaults": {
+    "controller_preset": "mouse"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Mouse preset",
+    "tested_kit": "0.17",
+    "tested_firmware": "",
+    "tested_date": "",
+    "status": "playable",
+    "notes": "Gets past the launcher; the game still needs an online connection.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

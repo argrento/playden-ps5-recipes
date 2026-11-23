@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-1169040-steam-emulator-game-s-library",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1169040",
+    "name": "Necesse"
+  },
+  "name": "Necesse",
+  "defaults": {
+    "steam_features": "steamclient"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam emulator, game's library",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

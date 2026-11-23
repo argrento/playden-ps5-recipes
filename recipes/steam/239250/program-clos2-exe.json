@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-239250-program-clos2-exe",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "239250",
+    "name": "Castlevania: Lords of Shadow 2"
+  },
+  "name": "Castlevania: Lords of Shadow 2",
+  "defaults": {
+    "program": "bin/CLOS2.exe"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Program CLOS2.exe",
+    "tested_kit": "0.13",
+    "tested_firmware": "12.70",
+    "tested_date": "",
+    "status": "works",
+    "notes": "",
+    "author": "Playden",
+    "contributors": []
+  }
+}

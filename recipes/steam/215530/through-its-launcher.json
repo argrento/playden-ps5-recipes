@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-215530-through-its-launcher",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "215530",
+    "name": "The Incredible Adventures of Van Helsing"
+  },
+  "name": "The Incredible Adventures of Van Helsing",
+  "defaults": {
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Through its launcher",
+    "tested_kit": "0.25",
+    "tested_firmware": "11.20",
+    "tested_date": "2026-11-13",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

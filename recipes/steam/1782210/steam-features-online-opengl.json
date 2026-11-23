@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-1782210-steam-features-online-opengl",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1782210",
+    "name": "Crab Game"
+  },
+  "name": "Crab Game",
+  "graphics": "opengl",
+  "defaults": {
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online, OpenGL",
+    "tested_kit": "0.29",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

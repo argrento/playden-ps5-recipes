@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-548430-direct3d-12-on-vkd3d-proton",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "548430",
+    "name": "Deep Rock Galactic"
+  },
+  "name": "Deep Rock Galactic",
+  "defaults": {
+    "d3d12": "vkd3d-proton"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Direct3D 12 on vkd3d-proton",
+    "tested_kit": "0.11",
+    "tested_firmware": "",
+    "tested_date": "",
+    "status": "works",
+    "notes": "",
+    "author": "Playden",
+    "contributors": []
+  }
+}

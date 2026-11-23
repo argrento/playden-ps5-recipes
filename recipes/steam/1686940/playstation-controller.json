@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-1686940-playstation-controller",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1686940",
+    "name": "Bopl Battle"
+  },
+  "name": "Bopl Battle",
+  "defaults": {
+    "controller": "playstation"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "PlayStation controller",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

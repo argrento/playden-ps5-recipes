@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-690640-through-its-launcher",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "690640",
+    "name": "Trine 4: The Nightmare Prince"
+  },
+  "name": "Trine 4: The Nightmare Prince",
+  "defaults": {
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Through its launcher",
+    "tested_kit": "0.25",
+    "tested_firmware": "13.40",
+    "tested_date": "2026-11-16",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

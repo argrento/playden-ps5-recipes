@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-4440600-arguments-rendering-driver-vulka",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "4440600",
+    "name": "Hamsteria Demo"
+  },
+  "name": "Hamsteria Demo",
+  "defaults": {
+    "program_arguments": "--rendering-driver vulkan"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Arguments --rendering-driver vulkan",
+    "tested_kit": "0.25",
+    "tested_firmware": "10.01",
+    "tested_date": "2026-11-15",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-976310-steam-emulator-game-s-library",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "976310",
+    "name": "Mortal Kombat 11"
+  },
+  "name": "Mortal Kombat 11",
+  "defaults": {
+    "steam_features": "steamclient"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam emulator, game's library",
+    "tested_kit": "0.31",
+    "tested_firmware": "12.20",
+    "tested_date": "",
+    "status": "works",
+    "notes": "",
+    "author": "Playden",
+    "contributors": []
+  }
+}

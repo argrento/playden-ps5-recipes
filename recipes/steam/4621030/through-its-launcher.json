@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-4621030-through-its-launcher",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "4621030",
+    "name": "Under the Desk Demo"
+  },
+  "name": "Under the Desk Demo",
+  "defaults": {
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Through its launcher",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

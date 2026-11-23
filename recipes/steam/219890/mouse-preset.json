@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-219890-mouse-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "219890",
+    "name": "Antichamber"
+  },
+  "name": "Antichamber",
+  "defaults": {
+    "controller_preset": "mouse"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Mouse preset",
+    "tested_kit": "0.10",
+    "tested_firmware": "",
+    "tested_date": "",
+    "status": "playable",
+    "notes": "The stick turns the view; walking needs a USB keyboard or a button mapping.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

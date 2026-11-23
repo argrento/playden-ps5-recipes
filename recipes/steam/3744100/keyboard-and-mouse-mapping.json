@@ -1,0 +1,27 @@
+{
+  "recipe_id": "community-steam-3744100-keyboard-and-mouse-mapping",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "3744100",
+    "name": "It’s Quiz Time: GUINNESS WORLD RECORDS™ 2026 Edition"
+  },
+  "name": "It’s Quiz Time: GUINNESS WORLD RECORDS™ 2026 Edition",
+  "defaults": {
+    "button.circle": "escape",
+    "button.cross": "enter",
+    "controller": "keyboard"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Keyboard and mouse mapping",
+    "tested_kit": "0.25",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-16",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

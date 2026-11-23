@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-238530-dxvk-direct3d-12-on-vkd3d-proton",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "238530",
+    "name": "Super Puzzle Platformer Deluxe"
+  },
+  "name": "Super Puzzle Platformer Deluxe",
+  "graphics": "dxvk",
+  "defaults": {
+    "d3d12": "vkd3d-proton"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "DXVK, Direct3D 12 on vkd3d-proton",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-5472090-playstation-controller",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "5472090",
+    "name": "SHRED A BILLION Demo"
+  },
+  "name": "SHRED A BILLION Demo",
+  "defaults": {
+    "controller": "playstation",
+    "touchpad_hold": "mouse"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "PlayStation controller",
+    "tested_kit": "0.25",
+    "tested_firmware": "10.60",
+    "tested_date": "2026-11-14",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

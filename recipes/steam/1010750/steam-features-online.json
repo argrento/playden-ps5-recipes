@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-1010750-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1010750",
+    "name": "Blood: Fresh Supply"
+  },
+  "name": "Blood: Fresh Supply",
+  "defaults": {
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online",
+    "tested_kit": "0.29",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

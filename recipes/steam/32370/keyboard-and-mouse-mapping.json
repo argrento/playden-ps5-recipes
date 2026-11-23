@@ -1,0 +1,36 @@
+{
+  "recipe_id": "community-steam-32370-keyboard-and-mouse-mapping",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "32370",
+    "name": "STAR WARS™ Knights of the Old Republic™"
+  },
+  "name": "STAR WARS™ Knights of the Old Republic™",
+  "defaults": {
+    "button.cross": "space",
+    "button.down": "s",
+    "button.l2": "mouse_left",
+    "button.left": "a",
+    "button.options": "enter",
+    "button.r2": "mouse_right",
+    "button.right": "d",
+    "button.touchpad": "escape",
+    "button.up": "w",
+    "controller": "keyboard",
+    "controller_preset": "arrows",
+    "pointer_stick": "right_stick"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Keyboard and mouse mapping",
+    "tested_kit": "0.25",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-14",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

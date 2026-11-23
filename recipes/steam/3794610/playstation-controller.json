@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-3794610-playstation-controller",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "3794610",
+    "name": "Goblin Vyke: The Thief Tycoon"
+  },
+  "name": "Goblin Vyke: The Thief Tycoon",
+  "defaults": {
+    "controller": "playstation"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "PlayStation controller",
+    "tested_kit": "0.25",
+    "tested_firmware": "10.60",
+    "tested_date": "2026-11-16",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

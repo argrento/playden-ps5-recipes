@@ -1,0 +1,28 @@
+{
+  "recipe_id": "community-steam-4733990-through-its-launcher-mouse-prese",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "4733990",
+    "name": "極上人妻在我身邊 Demo"
+  },
+  "name": "極上人妻在我身邊 Demo",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick",
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Through its launcher, Mouse preset",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-1677740-game-s-own-steam-files",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1677740",
+    "name": "Stumble Guys"
+  },
+  "name": "Stumble Guys",
+  "defaults": {
+    "steam_features": "game"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Game's own Steam files",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

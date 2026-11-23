@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-5186670-gamepad-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "5186670",
+    "name": "CUMING FEAR Demo"
+  },
+  "name": "CUMING FEAR Demo",
+  "defaults": {
+    "controller_preset": "gamepad"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Gamepad preset",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

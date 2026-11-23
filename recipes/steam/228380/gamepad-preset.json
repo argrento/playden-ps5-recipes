@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-228380-gamepad-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "228380",
+    "name": "Wreckfest"
+  },
+  "name": "Wreckfest",
+  "defaults": {
+    "controller_preset": "gamepad"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Gamepad preset",
+    "tested_kit": "0.25",
+    "tested_firmware": "11.60",
+    "tested_date": "2026-11-15",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "recipe_id": "community-steam-1625450-keyboard-and-mouse-mapping",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1625450",
+    "name": "Muck"
+  },
+  "name": "Muck",
+  "defaults": {
+    "button.circle": "f",
+    "button.cross": "mouse_left",
+    "button.l1": "escape",
+    "button.l2": "shift",
+    "button.r1": "enter",
+    "button.r2": "q",
+    "button.square": "e",
+    "button.triangle": "space",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Keyboard and mouse mapping",
+    "tested_kit": "0.28",
+    "tested_firmware": "10.60",
+    "tested_date": "2026-11-19",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

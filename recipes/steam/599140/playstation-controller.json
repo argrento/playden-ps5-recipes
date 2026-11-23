@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-599140-playstation-controller",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "599140",
+    "name": "Graveyard Keeper"
+  },
+  "name": "Graveyard Keeper",
+  "defaults": {
+    "controller": "playstation"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "PlayStation controller",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-17",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

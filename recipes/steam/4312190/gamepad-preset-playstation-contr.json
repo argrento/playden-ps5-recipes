@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-4312190-gamepad-preset-playstation-contr",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "4312190",
+    "name": "CRACK"
+  },
+  "name": "CRACK",
+  "defaults": {
+    "controller": "playstation",
+    "controller_preset": "gamepad"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Gamepad preset, PlayStation controller",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.42",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

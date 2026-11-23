@@ -1,0 +1,28 @@
+{
+  "recipe_id": "community-steam-339340-steam-emulator-game-s-library-mo",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "339340",
+    "name": "Resident Evil 0"
+  },
+  "name": "Resident Evil 0",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick",
+    "steam_features": "steamclient"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam emulator, game's library, Mouse preset",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-20",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

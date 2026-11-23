@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-65800-through-its-launcher",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "65800",
+    "name": "Dungeon Defenders"
+  },
+  "name": "Dungeon Defenders",
+  "defaults": {
+    "start_through_launcher": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Through its launcher",
+    "tested_kit": "0.21",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-15",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

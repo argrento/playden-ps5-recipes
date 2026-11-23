@@ -1,0 +1,27 @@
+{
+  "recipe_id": "community-steam-219950-mouse-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "219950",
+    "name": "NiGHTS into Dreams..."
+  },
+  "name": "NiGHTS into Dreams...",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Mouse preset",
+    "tested_kit": "0.32",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-21",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

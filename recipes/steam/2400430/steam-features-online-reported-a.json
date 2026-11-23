@@ -1,0 +1,27 @@
+{
+  "recipe_id": "community-steam-2400430-steam-features-online-reported-a",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "2400430",
+    "name": "Capcom Fighting Collection 2"
+  },
+  "name": "Capcom Fighting Collection 2",
+  "defaults": {
+    "reported_gpu": "amd",
+    "reported_vram": "4096",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online, Reported AMD card",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-19",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

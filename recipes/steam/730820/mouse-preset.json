@@ -1,0 +1,27 @@
+{
+  "recipe_id": "community-steam-730820-mouse-preset",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "730820",
+    "name": "The Curse of Monkey Island"
+  },
+  "name": "The Curse of Monkey Island",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "pointer_stick": "left_stick"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Mouse preset",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.40",
+    "tested_date": "2026-11-16",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

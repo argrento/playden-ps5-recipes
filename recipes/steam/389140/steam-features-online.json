@@ -1,0 +1,25 @@
+{
+  "recipe_id": "community-steam-389140-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "389140",
+    "name": "Horizon Chase Turbo"
+  },
+  "name": "Horizon Chase Turbo",
+  "defaults": {
+    "steam_features": "online"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Steam features Online",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-17",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}
