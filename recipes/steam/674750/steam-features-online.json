@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-steam-674750-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "674750",
+    "name": "Yet Another Zombie Defense HD"
+  },
+  "name": "Yet Another Zombie Defense HD",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "YAZD_HD.exe",
+      "executable": "YAZD_HD.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "YAZD_HD.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Steam features Online (experimental)",
+    "tested_kit": "0.31",
+    "tested_firmware": "5.00",
+    "tested_date": "2026-11-23",
+    "status": "works",
+    "notes": "",
+    "author": "CesarVelly",
+    "contributors": []
+  }
+}
