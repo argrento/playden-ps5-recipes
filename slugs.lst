@@ -1,14 +1,18 @@
 steam/70 right-stick-pointer
 steam/220 menu-pointer
 steam/240 win64
+steam/240 works-with-lan
 steam/400 menu-pointer
+steam/440 steam-features-online
 steam/500 menu-pointer
 steam/550 default-config
+steam/550 enable-menu-control
 steam/2610 playstation-controller
 steam/3700 mouse
 steam/6060 mouse
 steam/6920 game-program
 steam/7510 skip-launcher
+steam/7940 start-through-a-launcher-on-3840
 steam/10090 mouse
 steam/10180 mouse
 steam/12210 gtaiv-patch-only
@@ -28,6 +32,7 @@ steam/232790 controller-keyboard-and-mouse
 steam/235460 metalgear-rising-revengance
 steam/239030 mouse
 steam/239140 dying-light-skip-logos
+steam/240720 controller-keyboard-and-mouse
 steam/242760 launcher
 steam/242760 the-forest
 steam/244430 mouse
@@ -36,10 +41,12 @@ steam/250900 repentance-plus
 steam/251570 7-days-exe
 steam/274520 120hz-left-stick-pointer
 steam/278360 game-program
+steam/292030 steam-features-online
 steam/319510 five-nights-at-freddy-s
 steam/339800 mouse
 steam/352520 mouse
 steam/353090 online-new-ci5
+steam/363130 toukidenkiwami-en-exe
 steam/377160 fallout4-exe-3840-2160-frame
 steam/377160 game-program
 steam/385710 launcher
@@ -52,6 +59,8 @@ steam/474960 steam-settings-change-to-local
 steam/489830 game-program
 steam/526870 satisfactory
 steam/544580 game-program
+steam/551730 toukiden2-en-exe-frame
+steam/582010 default-config
 steam/587620 window-view-entire-desktop
 steam/627270 2560-1440-120-hz-on
 steam/646570 slaythespire-exe-120-hz-on
@@ -75,6 +84,7 @@ steam/1113560 3840-2160
 steam/1127400 mouse
 steam/1167630 opengl
 steam/1173770 3840-2160-touchpad-hold-switch
+steam/1174180 touchpad-hold-switch-to-mouse
 steam/1363080 start-through-a-launcher-on
 steam/1371980 recipe
 steam/1375400 vkd3d
@@ -89,6 +99,7 @@ steam/2103140 steam-features-online
 steam/2111190 vkd3d
 steam/2215430 no-launcher-1080p
 steam/2333000 silver-pines
+steam/2424420 controller-playstation
 steam/2475490 steam-features-online
 steam/2567870 touchpad-hold-switch-to-mouse
 steam/2615540 program-arguments-dx11
@@ -102,6 +113,7 @@ steam/2950340 years-5-7
 steam/3241660 steam-features-online
 steam/3271280 steam-features-online
 steam/3419520 steam-features-online
+steam/3527290 steam-features-online
 steam/3629780 mouse-720p
 steam/3743790 game-program
 steam/4262460 steam-features-online
@@ -109,11 +121,15 @@ steam/4659940 3840-2160
 steam/4678800 defaults
 steam/4841090 own-steam-files
 steam/5267440 works-online
+gog/1325415523 opengl
+gog/1423049311 cyberpunk2077-exe-program-folder
 imported/7-zip benchmark
+imported/black-mesa 3840-2160-controller-layout
 imported/bully-scholarship-edition-with-fixes-only 2560-1440-controller-preset
 imported/conker-s-bad-fur-day conker-s-bad-fur-day-recomp
 imported/dark-deception chronbox
 imported/diddy-kong-racing diddy-kong-racing-recompiled
+imported/door-kickers-action-squad pizle
 imported/eldewrito-0-7-1 baseline
 imported/furmark-2 gl-demo-1080p
 imported/marvels-avengers controller-preset-gamepad
@@ -130,6 +146,7 @@ imported/prime95 offline
 imported/resident-evil-3-remake 2560-1440-120-hz-on
 imported/rush-the-rock projectr
 imported/ryse-son-of-rome 3840-2160-frame-generation-2
+imported/sephiria 2560-1440-120-hz-on
 imported/the-complex-expedition thecomplexexpedition-win64
 imported/the-king-of-fighters-xv-2022 kofxv-win64-shipping-exe-120-hz
 imported/unigine-heaven direct3d9
