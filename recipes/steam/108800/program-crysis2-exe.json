@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-108800-program-crysis2-exe",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "108800",
+    "name": "Crysis 2 Maximum Edition"
+  },
+  "name": "Crysis 2 Maximum Edition",
+  "defaults": {
+    "program": "Bin32/Crysis2.exe",
+    "program_folder": ""
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Program Crysis2.exe",
+    "tested_kit": "0.25",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-14",
+    "status": "works",
+    "notes": "From player reports on the compatibility list. The program is Steam's usual Bin32/Crysis2.exe; a copy without it starts Playden's program.",
+    "author": "Playden",
+    "contributors": []
+  }
+}

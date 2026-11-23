@@ -1,0 +1,30 @@
+{
+  "recipe_id": "community-steam-1659040-program-hitman3-exe-steam-emulat",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1659040",
+    "name": "HITMAN World of Assassination"
+  },
+  "name": "HITMAN World of Assassination",
+  "defaults": {
+    "program": "Retail/HITMAN3.exe",
+    "program_arguments": "",
+    "steam_features": "steamclient",
+    "pixel_shader_waves": "wave64",
+    "steam_library_path": "steam",
+    "steam_input": "on"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "Program HITMAN3.exe, Steam emulator, game's library",
+    "tested_kit": "0.28",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-18",
+    "status": "works",
+    "notes": "From player reports on the compatibility list. The program is Steam's usual Retail/HITMAN3.exe; a copy without it starts Playden's program.",
+    "author": "Playden",
+    "contributors": []
+  }
+}
