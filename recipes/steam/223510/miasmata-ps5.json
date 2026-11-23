@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-223510-miasmata-ps5",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "223510",
+    "name": "Miasmata"
+  },
+  "name": "Miasmata",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Miasmata.exe",
+      "executable": "Miasmata.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d9",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_layout": "cross = key:space;circle = key:ctrl;square = key:m;triangle = key:tab;l1 = key:shift;r1 = key:shift;l2 = mouse:right;r2 = mouse:left;l3 = none;r3 = none;up = key:h;down = key:g;left = key:q;right = key:e;options = key:escape;create = none;touchpad_left = none;touchpad_right = none;left_stick = keys;left_stick_keys = w,s,a,d;left_stick_deadzone = 30;right_stick = mouse;right_stick_speed = 1500",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Miasmata.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Keyboard and mouse mapping",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.40",
+    "tested_date": "2026-11-23",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
