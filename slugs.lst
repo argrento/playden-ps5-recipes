@@ -30,6 +30,7 @@ steam/71250 start-through-a-launcher-on
 steam/71260 through-its-launcher
 steam/105600 game-program
 steam/108600 frame-limit-60
+steam/108800 program-crysis2-exe
 steam/212680 mouse
 steam/212910 steam-features-online
 steam/213610 program-sonic2app-exe
@@ -107,6 +108,7 @@ steam/976310 steam-emulator-game-s-library
 steam/1010750 steam-features-online
 steam/1015500 gamepad-preset
 steam/1026680 launcher
+steam/1072150 opengl
 steam/1085510 steam-features-online
 steam/1086940 bg3-dx11-exe
 steam/1089980 mouse
@@ -134,6 +136,7 @@ steam/1592280 opengl
 steam/1623730 d3d12-wine
 steam/1623730 palworld
 steam/1625450 keyboard-and-mouse-mapping
+steam/1659040 program-hitman3-exe-steam-emulat
 steam/1677740 game-s-own-steam-files
 steam/1684930 vkd3d
 steam/1685750 steam-features-online
@@ -143,6 +146,7 @@ steam/1782460 3840-2160
 steam/1875580 vkd3d
 steam/2103140 steam-features-online
 steam/2111190 vkd3d
+steam/2142790 opengl
 steam/2215430 no-launcher-1080p
 steam/2333000 silver-pines
 steam/2400430 steam-features-online-reported-a
@@ -154,6 +158,7 @@ steam/2615540 program-arguments-dx11
 steam/2634950 d3d12-wine
 steam/2671230 library-overrides-none-2560-1440
 steam/2744010 mouse
+steam/2753970 dxvk
 steam/2796180 menu-pointer
 steam/2806640 talos1
 steam/2909400 dx12
