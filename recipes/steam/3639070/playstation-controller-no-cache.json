@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-3639070-playstation-controller-no-cache",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "3639070",
+    "name": "BLACKWOOD"
+  },
+  "name": "BLACKWOOD",
+  "defaults": {
+    "controller": "playstation",
+    "environment": "WINE_PS5_CACHED_FILES=0"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "PlayStation controller, no cached files",
+    "tested_kit": "0.25",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-15",
+    "status": "works",
+    "notes": "From player reports on the compatibility list.",
+    "author": "Playden",
+    "contributors": []
+  }
+}
