@@ -31,7 +31,7 @@
   "executable": "beatbanger.exe",
   "community": {
     "format_version": 1,
-    "title": "To launch game properly.",
+    "title": "OpenGL",
     "tested_kit": "0.31",
     "tested_firmware": "13.60",
     "tested_date": "2026-11-25",
