@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-steam-460810-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "460810",
+    "name": "Vanquish"
+  },
+  "name": "Vanquish",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Vanquish.exe",
+      "executable": "Vanquish.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d9,dxgi",
+  "defaults": {
+    "frame_limit": "120",
+    "refresh": "120",
+    "resolution": "2560x1440",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "Vanquish.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Steam features Online (experimental)",
+    "tested_kit": "0.35",
+    "tested_firmware": "11.60",
+    "tested_date": "2026-11-25",
+    "status": "works",
+    "notes": "",
+    "author": "Cola512",
+    "contributors": []
+  }
+}
