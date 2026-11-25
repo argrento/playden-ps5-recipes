@@ -1,0 +1,51 @@
+{
+  "recipe_id": "community-steam-46560-dgvoodoocpl-exe-frame-limit-60",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "46560",
+    "name": "Robin Hood"
+  },
+  "name": "Robin Hood",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "dgVoodooCpl.exe",
+      "executable": "dgVoodooCpl.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d8,ddraw",
+  "defaults": {
+    "amd_gpu_services": "runtime",
+    "controller": "keyboard",
+    "cpu": "translator",
+    "cpu_topology": "4",
+    "d3d12": "vkd3d-proton",
+    "frame_limit": "60",
+    "reported_vram": "4096",
+    "start_through_launcher": "on",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "dgVoodooCpl.exe",
+  "community": {
+    "format_version": 1,
+    "title": "dgVoodooCpl.exe, Frame limit 60",
+    "tested_kit": "0.36",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-25",
+    "status": "broken",
+    "notes": "",
+    "author": "Counterman",
+    "contributors": []
+  }
+}
