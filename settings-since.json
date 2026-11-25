@@ -2,6 +2,7 @@
   "format_version": 1,
   "settings": {
     "address_space": "",
+    "amd_gpu_services": "0.13.0",
     "architecture": "",
     "arguments": "",
     "button.circle": "",
@@ -27,6 +28,7 @@
     "cpu": "",
     "cpu_topology": "",
     "d3d12": "",
+    "d3d12_feature_level": "0.13.0",
     "dll_overrides": "",
     "environment": "",
     "extra_arguments": "",
@@ -67,6 +69,7 @@
     "steam_network": "",
     "steam_sign_in": "",
     "stick_deadzone": "",
+    "subpage_fixes": "0.13.0",
     "system_locale": "",
     "text_scale": "",
     "touchpad_hold": "",
