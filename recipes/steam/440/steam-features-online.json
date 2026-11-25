@@ -27,8 +27,13 @@
   "detected": "source",
   "defaults": {
     "controller": "xinput",
-    "controller_layout": "cross = key:space;circle = key:ctrl;square = key:r;triangle = key:q;l1 = mouse:wheel_up;r1 = mouse:wheel_down;l2 = mouse:right;r2 = mouse:left;l3 = key:v;r3 = key:3;up = key:1;down = key:3;left = key:4;right = key:2;options = key:escape;create = key:f1;touchpad_left = pad:back;touchpad_right = key:f10;left_stick = keys;left_stick_keys = w,s,a,d;right_stick = mouse",
+    "controller_layout": "cross = key:space;circle = key:ctrl;square = key:r;triangle = key:q;l1 = mouse:wheel_up;r1 = mouse:wheel_down;l2 = mouse:right;r2 = mouse:left;l3 = key:v;r3 = key:3;up = key:1;down = key:3;left = key:4;right = key:2;options = key:escape;create = key:f1;touchpad_left = key:comma;touchpad_right = key:f10;left_stick = keys;left_stick_keys = w,s,a,d;right_stick = mouse;right_stick_deadzone = 0;right_stick_speed = 3000",
+    "cpu_topology": "8",
+    "frame_latency": "1",
+    "pixel_shader_waves": "wave64",
     "refresh": "120",
+    "reported_gpu": "nvidia",
+    "reported_vram": "4096",
     "resolution": "3840x2160",
     "steam_features": "online"
   },
@@ -36,10 +41,10 @@
   "executable": "tf_win64.exe",
   "community": {
     "format_version": 1,
-    "title": "Steam features Online (experimental)",
+    "title": "Online play, keyboard and mouse on the controller",
     "tested_kit": "0.35",
     "tested_firmware": "13.20",
-    "tested_date": "2026-11-22",
+    "tested_date": "2026-11-24",
     "status": "works",
     "notes": "",
     "author": "random_one",
