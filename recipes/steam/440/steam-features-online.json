@@ -41,7 +41,7 @@
   "executable": "tf_win64.exe",
   "community": {
     "format_version": 1,
-    "title": "Steam features Online (experimental)",
+    "title": "Online play, keyboard and mouse on the controller",
     "tested_kit": "0.35",
     "tested_firmware": "13.20",
     "tested_date": "2026-11-24",
