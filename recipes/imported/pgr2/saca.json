@@ -1,0 +1,44 @@
+{
+  "recipe_id": "community-imported-pgr2-saca",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "pgr2",
+    "name": "PGR2"
+  },
+  "name": "PGR2",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "PGR2.exe",
+      "executable": "PGR2.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "d3d12": "vkd3d-proton",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "PGR2.exe",
+  "community": {
+    "format_version": 1,
+    "tested_kit": "0.32",
+    "tested_firmware": "10.20",
+    "tested_date": "2026-11-24",
+    "status": "works",
+    "notes": "",
+    "author": "Saca",
+    "contributors": [],
+    "title": "PGR2 Recomp (default settings)"
+  }
+}
