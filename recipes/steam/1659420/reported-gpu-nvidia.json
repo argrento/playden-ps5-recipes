@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-1659420-reported-gpu-nvidia",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1659420",
+    "name": "UNCHARTED™: Legacy of Thieves Collection"
+  },
+  "name": "UNCHARTED™: Legacy of Thieves Collection",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Uncharted: Legacy of Thieves",
+      "executable": "u4.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d12,dxgi",
+  "defaults": {
+    "d3d12": "vkd3d-proton",
+    "reported_gpu": "nvidia",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "u4.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Reported GPU: NVIDIA",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.20",
+    "tested_date": "2026-11-24",
+    "status": "playable",
+    "notes": "Reported graphics card = NVIDIA gets past the game's AMD AGS check ('Incompatible GPU, D3D_FEATURE_LEVEL_12_0 required'). Plays fine on kit 0.35.",
+    "author": "argrento",
+    "contributors": []
+  }
+}
