@@ -34,7 +34,7 @@
   "executable": "SteamBuild1.5/FlipWitch.exe",
   "community": {
     "format_version": 1,
-    "title": "120 Hz on",
+    "title": "120 Hz, PlayStation controller",
     "tested_kit": "0.28",
     "tested_firmware": "12.40",
     "tested_date": "2026-11-24",
