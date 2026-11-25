@@ -18,7 +18,7 @@
   ],
   "arguments": "",
   "resolution_arguments": "",
-  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n;amd_ags_x64=b,n",
   "architecture": "pe64",
   "runtime": "wine-wow64",
   "prefix": "game",
