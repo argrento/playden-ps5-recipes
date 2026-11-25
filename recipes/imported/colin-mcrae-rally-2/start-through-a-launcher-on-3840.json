@@ -40,7 +40,7 @@
   "executable": "CMR2.exe",
   "community": {
     "format_version": 1,
-    "title": "Start through a launcher on, 3840×2160",
+    "title": "Start through a launcher, arrow keys on the D-pad (4K)",
     "tested_kit": "0.35",
     "tested_firmware": "9.20",
     "tested_date": "2026-11-23",
