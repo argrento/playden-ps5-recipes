@@ -28,16 +28,17 @@
     "d3d12": "vkd3d-proton",
     "microphone": "off",
     "steam_features": "emulate",
-    "touchpad_hold": "mouse"
+    "touchpad_hold": "mouse",
+    "environment": "PW_SUBPAGE_FIXES=1"
   },
   "locked": [],
   "executable": "RDR2.exe",
   "community": {
     "format_version": 1,
     "title": "Rockstar Games Launcher, touchpad hold for mouse",
-    "tested_kit": "0.35-dev.20261121.3",
+    "tested_kit": "0.36",
     "tested_firmware": "13.60",
-    "tested_date": "2026-11-21",
+    "tested_date": "2026-11-25",
     "status": "works",
     "notes": "",
     "author": "Leo Lobato",
