@@ -1,0 +1,47 @@
+{
+  "recipe_id": "community-imported-schedule-i-v0-3-3f14-schedule-i-recipe",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "schedule-i-v0-3-3f14",
+    "name": "Schedule.I.v0.3.3f14"
+  },
+  "name": "Schedule.I.v0.3.3f14",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "Schedule I.exe",
+      "executable": "Schedule I/Schedule I.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity-il2cpp,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_layout": "cross = key:space;circle = key:ctrl;square = key:e;triangle = key:f;l1 = mouse:wheel_down;r1 = mouse:wheel_up;l2 = mouse:right;r2 = mouse:left;l3 = key:shift;r3 = none;up = key:m;down = key:tab;left = key:t;right = key:j;options = key:escape;create = none;touchpad_left = none;touchpad_right = none;left_stick = keys;left_stick_keys = w,s,a,d;left_stick_deadzone = 30;right_stick = mouse;right_stick_speed = 1500",
+    "refresh": "120",
+    "resolution": "3840x2160",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "Schedule I/Schedule I.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Schedule I recipe",
+    "tested_kit": "0.36",
+    "tested_firmware": "10.01",
+    "tested_date": "2026-11-25",
+    "status": "works",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
