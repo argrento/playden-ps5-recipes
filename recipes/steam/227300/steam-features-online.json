@@ -1,0 +1,50 @@
+{
+  "recipe_id": "community-steam-227300-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "227300",
+    "name": "Euro Truck Simulator 2"
+  },
+  "name": "Euro Truck Simulator 2",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Play Euro Truck Simulator 2 (64-bit)",
+      "executable": "bin/win_x64/eurotrucks2.exe",
+      "working_directory": "",
+      "arguments": "",
+      "in_install_root": true
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n;d3d12,d3d12core=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d11,d3d12,dxgi,opengl,vulkan",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_preset": "mouse",
+    "d3d12": "vkd3d-proton",
+    "pointer_speed": "2400",
+    "pointer_stick": "left_stick",
+    "resolution": "3840x2160",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "bin/win_x64/eurotrucks2.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Mouse on the left stick, online, 4K",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-24",
+    "status": "playable",
+    "notes": "",
+    "author": "מרדכי",
+    "contributors": []
+  }
+}
