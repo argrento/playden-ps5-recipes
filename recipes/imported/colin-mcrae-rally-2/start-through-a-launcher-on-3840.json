@@ -1,0 +1,52 @@
+{
+  "recipe_id": "community-imported-colin-mcrae-rally-2-start-through-a-launcher-on-3840",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "colin-mcrae-rally-2",
+    "name": "Colin McRae Rally 2"
+  },
+  "name": "Colin McRae Rally 2",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "CMR2.exe",
+      "executable": "CMR2.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "ddraw",
+  "defaults": {
+    "button.circle": "escape",
+    "button.cross": "enter",
+    "button.down": "Down",
+    "button.left": "Left",
+    "button.right": "Right",
+    "button.up": "UP",
+    "controller_preset": "arrows",
+    "resolution": "3840x2160",
+    "start_through_launcher": "on",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "CMR2.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Start through a launcher, arrow keys on the D-pad (4K)",
+    "tested_kit": "0.35",
+    "tested_firmware": "9.20",
+    "tested_date": "2026-11-23",
+    "status": "works",
+    "notes": "",
+    "author": "Aristeidis Alexopoulos",
+    "contributors": []
+  }
+}
