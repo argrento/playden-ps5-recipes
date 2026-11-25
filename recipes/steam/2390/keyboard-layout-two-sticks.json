@@ -40,7 +40,7 @@
     "tested_firmware": "13.20",
     "tested_date": "2026-11-24",
     "status": "playable",
-    "notes": "DOSBox ignores the controller, so keys: Options=Esc, Cross=Enter, Square/R2=Ctrl fire, Circle=Space use, left stick Up/Down + comma/period strafe, right stick Left/Right turn, L3=Shift run. SDL_VIDEODRIVER=windib. FW 13.20.",
+    "notes": "DOSBox ignores the controller, so keys: Options=Esc, Cross=Enter, Square/R2=Ctrl fire, Circle=Space use, left stick Up/Down + comma/period strafe, right stick Left/Right turn, L3=Shift run.",
     "author": "argrento",
     "contributors": []
   }
