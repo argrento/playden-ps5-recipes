@@ -1,0 +1,47 @@
+{
+  "recipe_id": "community-steam-2390-keyboard-layout-two-sticks",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "2390",
+    "name": "Heretic: Shadow of the Serpent Riders"
+  },
+  "name": "Heretic: Shadow of the Serpent Riders",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "dosbox.exe",
+      "executable": "base/dosbox.exe",
+      "working_directory": "",
+      "arguments": "base\\heretic.exe -conf base\\heretic.conf -fullscreen -exit",
+      "in_install_root": true
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "opengl",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_layout": "cross = key:enter;circle = key:space;square = key:ctrl;triangle = key:c;l1 = none;r1 = none;l2 = none;r2 = key:ctrl;l3 = key:shift;r3 = none;up = key:up;down = key:down;left = key:left;right = key:right;options = key:escape;create = none;touchpad_left = none;touchpad_right = none;left_stick = keys;left_stick_keys = up,down,comma,period;right_stick = keys;right_stick_keys = none,none,left,right",
+    "environment": "SDL_VIDEODRIVER=windib",
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "base/dosbox.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Keyboard layout, two sticks (DOSBox)",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.20",
+    "tested_date": "2026-11-24",
+    "status": "playable",
+    "notes": "DOSBox ignores the controller, so keys: Options=Esc, Cross=Enter, Square/R2=Ctrl fire, Circle=Space use, left stick Up/Down + comma/period strafe, right stick Left/Right turn, L3=Shift run.",
+    "author": "argrento",
+    "contributors": []
+  }
+}
