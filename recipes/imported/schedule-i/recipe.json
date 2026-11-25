@@ -37,6 +37,7 @@
     "status": "untested",
     "notes": "",
     "author": "",
-    "contributors": []
+    "contributors": [],
+    "title": "DirectX 11 (DXVK)"
   }
 }
