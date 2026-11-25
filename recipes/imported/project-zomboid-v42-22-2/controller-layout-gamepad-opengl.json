@@ -1,0 +1,46 @@
+{
+  "recipe_id": "community-imported-project-zomboid-v42-22-2-controller-layout-gamepad-opengl",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "project-zomboid-v42-22-2",
+    "name": "Project.Zomboid.v42.22.2"
+  },
+  "name": "Project.Zomboid.v42.22.2",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "ProjectZomboid64.exe",
+      "executable": "Project.Zomboid.v42.22.2/ProjectZomboid64.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "unknown",
+  "defaults": {
+    "controller": "xinput",
+    "controller_layout": "cross = pad:a;circle = pad:b;square = pad:x;triangle = pad:y;l1 = pad:lb;r1 = pad:rb;l2 = pad:lt;r2 = pad:rt;l3 = pad:ls;r3 = pad:rs;up = pad:dpad_up;down = pad:dpad_down;left = pad:dpad_left;right = pad:dpad_right;options = pad:start;create = pad:back;touchpad_left = pad:back;touchpad_right = pad:guide;left_stick = pad:left_stick;right_stick = pad:right_stick",
+    "steam_features": "emulate",
+    "touchpad_hold": "mouse"
+  },
+  "locked": [],
+  "executable": "Project.Zomboid.v42.22.2/ProjectZomboid64.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Controller layout Gamepad, OpenGL",
+    "tested_kit": "0.35",
+    "tested_firmware": "13.20",
+    "tested_date": "2026-11-25",
+    "status": "playable",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
