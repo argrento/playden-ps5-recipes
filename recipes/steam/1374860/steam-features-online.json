@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-1374860-steam-features-online",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1374860",
+    "name": "Nocturne"
+  },
+  "name": "Nocturne",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Nocturne.exe",
+      "executable": "Nocturne.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "-force-d3d11 {resolution}",
+  "resolution_arguments": "-screen-width {w} -screen-height {h}",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "unity-il2cpp,d3d11,d3d12,d3d9,dxgi,opengl,vulkan",
+  "defaults": {
+    "controller": "playstation",
+    "refresh": "120",
+    "steam_features": "online"
+  },
+  "locked": [],
+  "executable": "Nocturne.exe",
+  "community": {
+    "format_version": 1,
+    "title": "PlayStation controller, 120 Hz",
+    "tested_kit": "0.35",
+    "tested_firmware": "11.60",
+    "tested_date": "2026-11-24",
+    "status": "works",
+    "notes": "",
+    "author": "Cola512",
+    "contributors": []
+  }
+}
