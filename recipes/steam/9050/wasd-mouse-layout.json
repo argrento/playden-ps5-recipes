@@ -1,0 +1,26 @@
+{
+  "recipe_id": "community-steam-9050-wasd-mouse-layout",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "9050",
+    "name": "DOOM 3"
+  },
+  "name": "DOOM 3",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_layout": "cross = key:space;circle = key:c;square = key:r;triangle = key:f;l1 = mouse:wheel_up;r1 = mouse:wheel_down;l2 = key:z;r2 = mouse:left;l3 = key:shift;r3 = none;up = key:1;right = key:2;down = key:3;left = key:4;options = key:escape;create = key:tab;touchpad_left = key:f5;touchpad_right = key:f9;left_stick = keys;left_stick_keys = w,s,a,d;right_stick = mouse"
+  },
+  "locked": [],
+  "community": {
+    "format_version": 2,
+    "title": "WASD and mouse layout",
+    "tested_kit": "0.36",
+    "tested_firmware": "13.20",
+    "tested_date": "2026-11-25",
+    "status": "playable",
+    "notes": "Keys match DOOM 3's default binds: left stick WASD, right stick looks, R2 fires (and clicks in-game screens), L2 zoom, Cross jump, Circle crouch, Square reload, Triangle flashlight, L1/R1 previous/next weapon, L3 run, D-pad weapons 1-4, Options menu, Create PDA, touchpad left/right quicksave/quickload. The game needs a Playden that unpacks its SteamStub and writes its Steam CD key; without them it doesn't start or stops at a CD Key box.",
+    "author": "argrento",
+    "contributors": []
+  }
+}
