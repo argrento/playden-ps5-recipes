@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-imported-gtaiv-gta-4",
+  "recipe_version": 1,
+  "game": {
+    "store": "imported",
+    "key": "gtaiv",
+    "name": "GTAIV"
+  },
+  "name": "GTAIV",
+  "launch_entries": [
+    {
+      "id": "program",
+      "label": "GTAIV.exe",
+      "executable": "GTAIV.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "d3d8,d3d9,d3d10core,d3d11,dxgi=n",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "dxvk",
+  "detected": "d3d10,d3d9,dxgi",
+  "defaults": {
+    "touchpad_hold": "mouse"
+  },
+  "locked": [],
+  "executable": "GTAIV.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Touchpad as a mouse",
+    "tested_kit": "0.32",
+    "tested_firmware": "10.60",
+    "tested_date": "2026-11-23",
+    "status": "playable",
+    "notes": "",
+    "author": "",
+    "contributors": []
+  }
+}
