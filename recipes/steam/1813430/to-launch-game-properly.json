@@ -36,7 +36,7 @@
     "tested_firmware": "13.60",
     "tested_date": "2026-11-25",
     "status": "works",
-    "notes": "Change render option to opengl",
+    "notes": "",
     "author": "M-a-8",
     "contributors": []
   }
