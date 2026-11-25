@@ -1,0 +1,43 @@
+{
+  "recipe_id": "community-steam-1813430-to-launch-game-properly",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "1813430",
+    "name": "Beat Banger"
+  },
+  "name": "Beat Banger",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Beat Banger For Windows",
+      "executable": "beatbanger.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe64",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "d3d11,d3d12,dxgi,opengl,vulkan",
+  "defaults": {
+    "steam_features": "emulate"
+  },
+  "locked": [],
+  "executable": "beatbanger.exe",
+  "community": {
+    "format_version": 1,
+    "title": "To launch game properly.",
+    "tested_kit": "0.31",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-25",
+    "status": "works",
+    "notes": "Change render option to opengl",
+    "author": "M-a-8",
+    "contributors": []
+  }
+}
