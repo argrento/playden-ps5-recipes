@@ -39,7 +39,7 @@
     "tested_firmware": "11.60",
     "tested_date": "2026-11-25",
     "status": "works",
-    "notes": "",
+    "notes": "If the game runs too fast, set Game settings › Frame limit = 60.",
     "author": "Cola512",
     "contributors": []
   }
