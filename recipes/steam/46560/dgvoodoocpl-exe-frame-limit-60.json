@@ -1,0 +1,45 @@
+{
+  "recipe_id": "community-steam-46560-dgvoodoocpl-exe-frame-limit-60",
+  "recipe_version": 1,
+  "game": {
+    "store": "steam",
+    "key": "46560",
+    "name": "Robin Hood"
+  },
+  "name": "Robin Hood",
+  "launch_entries": [
+    {
+      "id": "launch-1",
+      "label": "Game.exe",
+      "executable": "Game.exe",
+      "working_directory": "",
+      "arguments": ""
+    }
+  ],
+  "arguments": "",
+  "resolution_arguments": "",
+  "dll_overrides": "",
+  "architecture": "pe32",
+  "runtime": "wine-wow64",
+  "prefix": "game",
+  "graphics": "opengl",
+  "detected": "d3d8,ddraw",
+  "defaults": {
+    "controller": "keyboard",
+    "controller_layout": "cross = key:space;circle = key:ctrl;square = key:r;triangle = key:e;l1 = key:q;r1 = key:f;l2 = mouse:right;r2 = mouse:left;l3 = key:shift;r3 = key:v;up = mouse:wheel_up;down = mouse:wheel_down;left = key:1;right = key:2;options = key:escape;create = key:tab;touchpad_left = key:m;touchpad_right = key:i;left_stick = keys;left_stick_keys = w,s,a,d;right_stick = mouse",
+    "cpu_topology": "4"
+  },
+  "locked": [],
+  "executable": "Game.exe",
+  "community": {
+    "format_version": 1,
+    "title": "Robin hood legend of sherwood WORKs!!!!!!",
+    "tested_kit": "0.36",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-25",
+    "status": "works",
+    "notes": "Only works with this recipe for now",
+    "author": "Counterman",
+    "contributors": []
+  }
+}
