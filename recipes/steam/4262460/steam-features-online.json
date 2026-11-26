@@ -26,6 +26,8 @@
   "detected": "unity-il2cpp,d3d11,d3d12,d3d9,dxgi,opengl,vulkan,anticheat",
   "defaults": {
     "controller": "playstation",
+    "refresh": "120",
+    "resolution": "2560x1440",
     "steam_features": "online"
   },
   "locked": [],
@@ -33,9 +35,9 @@
   "community": {
     "format_version": 1,
     "title": "Online play (Steam features Online)",
-    "tested_kit": "0.31",
-    "tested_firmware": "12.60",
-    "tested_date": "2026-11-19",
+    "tested_kit": "0.36",
+    "tested_firmware": "13.60",
+    "tested_date": "2026-11-25",
     "status": "works",
     "notes": "",
     "author": "SillyGoose",
