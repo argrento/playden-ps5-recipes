@@ -15,6 +15,7 @@ steam/6060 mouse
 steam/6920 game-program
 steam/7510 skip-launcher
 steam/7940 start-through-a-launcher-on-3840
+steam/9050 wasd-mouse-layout
 steam/10090 mouse
 steam/10180 mouse
 steam/12210 gtaiv-patch-only
@@ -24,6 +25,7 @@ steam/24240 mouse
 steam/32370 keyboard-and-mouse-mapping
 steam/35720 game-program
 steam/40700 vkd3d-proton
+steam/46560 dgvoodoocpl-exe-frame-limit-60
 steam/57640 mouse
 steam/63660 opengl
 steam/65800 through-its-launcher
